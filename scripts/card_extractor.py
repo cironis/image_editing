@@ -88,7 +88,7 @@ def make_safe_filename(title):
     return safe
 
 def save_all_cards(cards):
-    output_dir = "cards"
+    output_dir = "new_cards"
     os.makedirs(output_dir, exist_ok=True)
 
     for idx, card in enumerate(cards, start=1):
